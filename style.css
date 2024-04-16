@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+       
+        display: flex;
+        overflow: hidden;
+
+ 
+  }
+#wrapper{
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+
+}
+#right{
+    display: flex;
+    flex:1
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: solid black;
+    border-style: double;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 3rem;
+    
+}
+form .inputbox{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    padding-bottom: 4px;
+    border-color: grey;
+
+}
+img{
+    width: 300px;
+}
+.logo{
+    margin-bottom: 8vh;
+
+}
+form label{
+    font-size: 0.8rem;
+    margin-bottom:5px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+font input{
+    margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #181818;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 1.5rem, 1rem;
+  
+  line-height: 1.9rem;
+}
+.btnprimary{
+    
+    display: block;
+    margin-top: 10px;
+    padding: 19px,16rem;
+    box-sizing: inherit;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background: #0074ab;
+    background-color: rgb(0,116,171);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    
+
+}
+.links{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr.bar{
+        border: none; /* Remove default border */
+        border-top: 1px solid #0d0f12; /* Apply a solid border on the top */
+        width: 100%; /* Ensure it spans the full width of its container */
+        margin: 20px 0; /* Add some margin for spacing */
+}@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+       
+        display: flex;
+        overflow: hidden;
+
+ 
+  }
+#wrapper{
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+
+}
+#right{
+    display: flex;
+    flex:1
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: solid black;
+    border-style: double;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 3rem;
+    
+}
+form .inputbox{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    padding-bottom: 4px;
+    border-color: grey;
+
+}
+img{
+    width: 300px;
+}
+.logo{
+    margin-bottom: 8vh;
+
+}
+form label{
+    font-size: 0.8rem;
+    margin-bottom:5px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+font input{
+    margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #181818;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 1.5rem, 1rem;
+  
+  line-height: 1.9rem;
+}
+.btnprimary{
+    
+    display: block;
+    margin-top: 10px;
+    padding: 19px,16rem;
+    box-sizing: inherit;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background: #0074ab;
+    background-color: rgb(0,116,171);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    
+
+}
+.links{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links a{
+    color: #2ea0d6;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+   
+}
+#secondbutton{
+    background-color: #0d0f12;
+    border-radius: 5px;
+}
+@media (min-width: 1200px){
+    #left{
+        flex: 5;
+    }
+    #right{
+        flex: 6;
+    }
+}
+#mainfooter{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#secondbutton{
+    background-color: #0d0f12;
+    border-radius: 5px;
+}
+@media (min-width: 1200px){
+    #left{
+        flex: 5;
+    }
+    #right{
+        flex: 6;
+    }
+}
